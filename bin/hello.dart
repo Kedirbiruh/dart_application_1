@@ -12,9 +12,11 @@ void main(List<String> arguments) {
   print(hallo!);
   print("Hallo $ort!");
   print("Hallo $name!");
-
+  
   String begrussung = "Hallo " + ort + " und " + name + "!";
   print(begrussung);
-}
-  
 
+  print(name.length);
+  print(ort.length);
+
+}
