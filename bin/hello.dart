@@ -1,21 +1,56 @@
 void main(List<String> arguments) {
-  print('Hallo!: $arguments!');
-  print("Hallo Welt!");
-  print("Hallo Jutta Jenssen!");
+  if(arguments.isNotEmpty) {
+    print('Hallo ${arguments.join(', ')}!'); 
+    }
+    else {
+      print('Hallo');
+    }
+  }
 
-  String hallo = "Hallo";
-  String ort = "Welt";
-  String name = "Jutta Jenssen";
 
-  print(hallo!);
-  print("Hallo $ort!");
-  print("Hallo $name!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // print("Hallo Welt!");
+  // print("Hallo Jutta Jenssen!");
+
+  // String hallo = "Hallo";
+  // String ort = "Welt";
+  // String name = "Jutta Jenssen";
+
+  // print(hallo!);
+  // print("Hallo $ort!");                            // interpolation
+  // print("Hallo $name!");
   
-  String begrussung = "Hallo " + ort + " und " + name + "!";
-  print(begrussung);
+  // String begrussung = "Hallo " + ort + " und " + name + "!"; // concatenation
+  // print(begrussung);
 
-  print(name.length);
-  print(ort.length);
+  // print(name.length);
+  // print(ort.length);
   
 
-}
+
