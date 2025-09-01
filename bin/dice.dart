@@ -44,7 +44,7 @@ void main() {
     print('Zwei 6er hintereinander nach $Wurfzaeler würfen!');
   } else {
     print(
-      'Limit erreicht: $Wurfzaeler Würfe durchgeführt, ohne zwe 6er hintereinander.',
+      'Limit erreicht: $Wurfzaeler Würfe durchgeführt, ohne zwei 6er hintereinander.',
     );
   }
 }
