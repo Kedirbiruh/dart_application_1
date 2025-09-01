@@ -7,7 +7,7 @@ void main() {
 
   int? maxWuerfe;
   do {
-    stdout.write('Gib die maximal Anzal der Würfe ein(Zahl > 0):');
+    stdout.write('Gib die maximal Anzal der Würfe ein (Zahl > 0):');
     maxWuerfe = int.tryParse(stdin.readLineSync() ?? '');
     if (maxWuerfe == null || maxWuerfe <= 0) {
       print('Ungültige Eingabe: Gib eine Zahl größer als 0.');
