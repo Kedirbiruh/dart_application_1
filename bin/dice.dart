@@ -23,7 +23,7 @@ void main() {
     int wurf = random.nextInt(6) + 1;
     wuerfe.add(wurf);
     Wurfzaeler++;
-    print('Wurf $Wurfzaeler: $wurf');
+    print('Wurf $Wurfzaeler: $wurf');<<
 
     if (wurf == 6) {
       anzahlSechsen++;
